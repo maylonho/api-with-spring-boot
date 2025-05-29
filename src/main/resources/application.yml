@@ -1,3 +1,6 @@
+file:
+  upload-dir: /home/runner/work/api-with-spring-boot/UploadDir
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

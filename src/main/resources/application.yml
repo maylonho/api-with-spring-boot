@@ -3,14 +3,14 @@ server:
 cors:
   originPatterns: http://localhost:3000,http://localhost:8080,https://oliveira.com.br
 file:
-  upload-dir: /home/runner/work/api-with-spring-boot/UploadDir
+  upload-dir: /home/runner/work/UploadDir
 
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/api-with-spring-boot?useTimezone=true&serverTimezone=UTC
     username: root
-    password: 
+    password: 123456
   jpa:
     hibernate:
       ddl-auto: update

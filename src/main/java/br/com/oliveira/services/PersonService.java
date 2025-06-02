@@ -19,6 +19,7 @@ public class PersonService {
 	}
 	
 	public Person create(Person person) {
+		person.setId(null);
 		return repository.save(person);
 	}
 }

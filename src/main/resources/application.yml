@@ -3,7 +3,7 @@ server:
 cors:
   originPatterns: http://localhost:3000,http://localhost:8080,https://oliveira.com.br
 file:
-  upload-dir: /home/runner/work/api-with-spring-boot/UploadDir
+  upload-dir: /home/runner/work/UploadDir
 
 spring:
   datasource:
